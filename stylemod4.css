@@ -1,0 +1,52 @@
+			 *{
+				font-family: Arial, Verdana, sans-serif;
+				color: #020d3a;
+				text-align: center;}
+			h1{ 
+				font-family: 'DancingScriptRegular'; 
+				font-weight: heavy; 
+				font-size:40px;
+				font-style: normal; 
+				}
+			body {
+				width: 90%;
+				margin: 0 auto;
+				background-image: url("http://apps.startribune.com/blogs/user_images/pauldouglas_1548458553_sunset%20Jan%2025%202019.JPG");
+				}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			.column1 {
+				background-color: #98e6ea;}
+			.column2 {
+				background-color: #439de8;}
+			.column3 {
+				margin-right: 0%;
+				background-color: #dcebf2;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav { 
+			background-color: #cdc5e5;
+				padding: 0.5em 0;}
+			#footer {
+				background-color: #fff084;
+				padding: 0.5em 0;}
+			#feature {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: #e0b145;
+				background-image: url("https://www.clipartmax.com/png/middle/12-120134_snowman-clipart-transparent-snowman-with-top-hat.png");
+				background-size:contain;
+				background-position: right;
+				background-repeat:no-repeat;}
+			.article {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: ;}
+	
