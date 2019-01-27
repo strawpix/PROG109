@@ -4,7 +4,7 @@
 				text-align: center;}
 			h1{ 
 				font-family: 'DancingScriptRegular'; 
-				font-weight: heavy; 
+				font-weight: bold; 
 				font-size:40px;
 				font-style: normal; 
 				}
@@ -48,5 +48,5 @@
 			.article {
 				height: 10em;
 				margin-bottom: 1em;
-				background-color: ;}
+				}
 	
