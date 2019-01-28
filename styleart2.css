@@ -1,0 +1,60 @@
+.row{
+ position:relative;
+ margin-left:20%;
+ margin-right:10%;
+}
+.clear {
+clear:both;
+}
+.white{
+ border: 1px solid black;
+ width: 10%;
+ height: 60px;
+ background-color:white;
+ float:left;
+}
+body {
+ background-image:url("http://static1.visitestonia.com/images/2890339/Estonian_forest_reasons_to_visit_Sven_Zacek.jpg");
+}
+.black{
+ border: 1px solid black;
+ width: 10%;
+ height: 60px;
+ background-color:#565656;
+ float:left;
+}
+#footer {
+float: center;
+ border:solid 1px;
+ padding: 10px;
+ margin:10px;
+ background-color: #6c9b69;
+ text-align:center;
+}
+#container {
+ margin-top:15%;
+ margin-left:10%;
+ margin-right:10%;
+ margin-bottom:5%;
+ float: center;
+}
+#header {
+ position:fixed;
+ top:0px;
+ left:0px; 
+ padding:10px;
+ margin:0px;
+ width:100%;
+ background-color: #f7ecca;
+ text-align:center; 
+ z-index:10;
+ font-family: 'BananaBrickRegular'; 
+ font-weight: normal; 
+ font-style: normal; 
+ font-size:36px;
+}
+img {
+	float:center;
+	margin-left: 6px;
+	margin-top: 10px;
+}
