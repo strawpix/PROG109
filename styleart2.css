@@ -24,7 +24,6 @@ body {
  float:left;
 }
 #footer {
-float: center;
  border:solid 1px;
  padding: 10px;
  margin:10px;
@@ -36,7 +35,6 @@ float: center;
  margin-left:10%;
  margin-right:10%;
  margin-bottom:5%;
- float: center;
 }
 #header {
  position:fixed;
@@ -54,7 +52,6 @@ float: center;
  font-size:36px;
 }
 img {
-	float:center;
 	margin-left: 6px;
 	margin-top: 10px;
 }
