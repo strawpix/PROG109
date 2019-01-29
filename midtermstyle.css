@@ -26,7 +26,7 @@
 			.column1, .column2, .column3 {
 				width: 100%;
 				height: auto;
-				float: center;
+				float: middle;
 				margin: 1%;
 				background-color: #e6ffff;
 				background-size:contain;
@@ -42,7 +42,6 @@
 				padding: 0.5em 0;}
 			#feature {
 				height: auto;
-				border: 5 px;
 				background-color: #e6ffff;
 				background-size:contain;
 				background-position: right;
