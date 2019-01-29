@@ -1,0 +1,15 @@
+			*{
+				font-family: Arial, Verdana, sans-serif;
+				color: #020d3a;
+				text-align: center;}
+			h1{ 
+				font-family: 'DancingScriptRegular'; 
+				font-weight: bold; 
+				font-size:40px;
+				font-style: normal; 
+				}
+			body {
+				width: 90%;
+				margin: 0 auto;
+				background-image: url("http://apps.startribune.com/blogs/user_images/pauldouglas_1548458553_sunset%20Jan%2025%202019.JPG");
+				}

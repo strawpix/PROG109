@@ -1,0 +1,56 @@
+			 *{
+				font-family: 'GrundschriftRegular'; 
+				color: #020d3a;
+				text-align: center;}
+			h1{ 
+				font-family: 'DancingScriptRegular'; 
+				font-weight: bold; 
+				font-size:40px;
+				font-style: normal; 
+				}
+			h2{ 
+				font-family: 'DancingScriptRegular'; 
+				font-weight: bold; 
+				font-size:30px;
+				font-style: normal; 
+				}
+			body {
+				width: 90%;
+				margin: 0 auto;
+				background-image: url("http://images.pexels.com/photos/951240/pexels-photo-951240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+				}
+			#content {
+				overflow: visible;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 100%;
+				height: auto;
+				float: center;
+				margin: 1%;
+				background-color: #e6ffff;
+				background-size:contain;
+			}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav { 
+			background-color: #4db3b3;
+				padding: 0.5em 0;}
+			#footer {
+				background-color: #fff084;
+				padding: 0.5em 0;}
+			#feature {
+				height: auto;
+				border: 5 px;
+				background-color: #e6ffff;
+				background-size:contain;
+				background-position: right;
+				background-repeat:no-repeat;
+				
+				}
+			.article {
+				height: auto;
+			
+				}
+	
