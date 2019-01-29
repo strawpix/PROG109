@@ -1,7 +1,9 @@
 			 *{
 				font-family: 'GrundschriftRegular'; 
 				color: #020d3a;
-				text-align: center;}
+				text-align: center;
+				font-size: 20px
+				}
 			h1{ 
 				font-family: 'DancingScriptRegular'; 
 				font-weight: bold; 
