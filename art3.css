@@ -1,7 +1,16 @@
 .label{ 
    font-family: 'YahfieHeavy'; 
-   font-weight: bold; 
+   font-weight: normal; 
    font-style: normal; 
+   text-align: center;
+}
+
+.title{ 
+   font-family: 'YahfieHeavy'; 
+   font-weight: normal; 
+   font-style: normal; 
+   font-size: 20px;
+   text-align: center;
 }
 
 #upLeft {
