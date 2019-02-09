@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="Artifact 3 - Rhombus">
+<meta charset="utf-8">
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/yahfie" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="art3.css">
+<title>Artifact 3 - Rhombus</title>
+</head>
+
+<body>
+<div class="label">
+	<label>What is the size of Rhombus?</label><br>
+</div>
+<input type="text" id="rHeight" size="5">
+<br>
+<div class="label">
+	<label>Choose color for even position</label><br>
+</div>
+<select id="colorEven">
+<option value="#761E14">Moccaccino</option>
+<option value="#FF4141">Peach</option>
+<option value="#F1C922">Golden Dream</option> 
+<option value="#DCF466">Canary</option>
+<option value="#BCF66F">Sulu</option>
+<option value="#28DCD2">Turquoise</option>
+<option value="#8EC1EB">Cornflower</option>
+<option value="#512BA6">Daisy Bush</option>
+<option value="#E7B9F8">Perfume</option>
+<option value="#F835EE">Razzle Dazzle Rose</option>
+</select><br> 
+<div class="label">
+	<label>Choose color for odd position</label><br>
+</div>
+<select id="colorOdd">
+<option value="#761E14">Moccaccino</option>
+<option value="#FF4141">Peach</option>
+<option value="#F1C922">Golden Dream</option> 
+<option value="#DCF466">Canary</option>
+<option value="#BCF66F">Sulu</option>
+<option value="#28DCD2">Turquoise</option>
+<option value="#8EC1EB">Cornflower</option>
+<option value="#512BA6">Daisy Bush</option>
+<option value="#E7B9F8">Perfume</option>
+<option value="#F835EE">Razzle Dazzle Rose</option>
+</select>
+<br>
+<div class="label">
+	<label>Choose symbol for Rhombus</label>
+</div>
+<select id="symbol">
+<option value="&#9729;">&#9729;</option>
+<option value="&#9733;">&#9733;</option>
+<option value="&#9829;">&#9829;</option> 
+<option value="&#9775;">&#9775;</option> 
+<option value="&#9774;">&#9774;</option> 
+<option value="&#9787;">&#9787;</option> 
+<option value="&#9830;">&#9830;</option>
+<option value="&#9927;">&#9927;</option>
+<option value="&#9909;">&#9909;</option>
+<option value="&#9972;">&#9972;</option>
+</select>
+<br>
+<button onclick="createRhombus(document.getElementById('rHeight').value,
+document.getElementById('colorEven').value,
+document.getElementById('colorOdd').value,
+document.getElementById('symbol').value);">Display Rhombus</button>
+
+<br>
+
+<div id="upLeft"></div>
+<div id="upRight"></div>
+
+<div class="clear"></div>
+
+
+<div id="downLeft"></div> 
+<div id="downRight"></div>
+
+<script src="artifact3.js"></script>
+
+</body>
+</html>

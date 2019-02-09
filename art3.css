@@ -1,0 +1,29 @@
+.label{ 
+   font-family: 'YahfieHeavy'; 
+   font-weight: bold; 
+   font-style: normal; 
+}
+
+#upLeft {
+float: left;
+
+}
+#downLeft {
+float: left;
+}
+#upRight {
+
+float: left;
+}
+
+#downRight {
+
+float: left;
+}
+.clear {
+clear: both;
+}
+
+.space {
+	color:white;
+}
