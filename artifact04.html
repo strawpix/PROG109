@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html land="en">
+<html lang="en">
 	<head>
 		<meta name="description" content="Artifact #4 - Form Validation">
 		 <meta charset="utf-8">
 		 <title>Artifact #4</title>
 		 <link rel="stylesheet" type="text/css" href="art4.css">
-		 <script src="art4.js" type="text/javascript"></script>
+		 <script src="art4.js"></script>
 		</head>
 	<body>
 		<h1> CONTACT US</h1>
 		<div id="errorMessages"></div>
-			<form action="thankyou.html" method="get" onsubmit="return validateForm();" name="myContact";>
+			<form action="thankyou.html" method="get" onsubmit="return validateForm();" name="myContact">
 			<fieldset>
 			<legend>User Information</legend>
 			 <label for="firstname">First Name (max 20)
@@ -149,7 +149,7 @@
 			 </fieldset>
 			 <fieldset>
 			 <legend>Leave Any Comments</legend>
-			 <label for="comments">Comments: </label>
+			 <label>Comments: </label>
 			 <br>
 			 <input type="text" name="comments">
 			 </fieldset>
