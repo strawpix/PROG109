@@ -10,7 +10,6 @@ var validPassword = false;
 var validAddress = false;
 var validCity = false;
 var validState= false;
-var validCountry = false;
 var validZipcode = false;
 var errorMessages ="";  // All the error messages are going to stay in this variable
  
@@ -43,7 +42,12 @@ var errorMessages ="";  // All the error messages are going to stay in this vari
 
 /*********** VALIDATES EMAIL ******** */
 var email = document.getElementById("email").value
- if (email == null ||
+	var atpos = email.indexOf("@");
+	var dotpos = email.lastIndexOf(".");
+ if (atpos< 1 || 
+ dotpos<atpos+2 || 
+ dotpos+2>=email.length ||
+ email == null ||
  email === "")
  errorMessages += "<p>The email is required.</p>";
  else 
@@ -91,27 +95,31 @@ var address = document.getElementById("address").value
 var city = document.getElementById("city").value
  if (city == null ||
  city === "")
- errorMessages += "<p>The city is required</p>";
+ errorMessages += "<p>The city is required.</p>";
  else 
  validCity =true;
  
- /*********** VALIDATES STATE ******** */
- var state = document.getElementById("username").value
- if (
- state==null ||
- state==="" )
-errorMessages += "<p>The state is required</p>";
- else 
-	  validState =true;
   
-  /*********** VALIDATES ZIPCODE ******** */
- var zipcode = document.getElementById("zipcode").value
- if (zipcode>5 ||
+  /*********** VALIDATES Country ******** */
+ 
+  
+  var country = document.getElementById("country").value;
+if (country === "USA")
+	
+	 /*********** VALIDATES ZIPCODE ******** */
+	 {var zipcode = document.getElementById("zipcode").value
+ if (zipcode.length > 5 ||
  zipcode==null ||
- zipcode==="" )
+ zipcode==="" ||
+ !zipcode.match(numbers))
 errorMessages += "<p>The zipcode is required</p>";
  else 
-	  validZipcode =true;
+	 validZipcode =true;}
+  
+// validate Zipcode according to the rules
+else
+//Zipcode is OK. For example: 
+validZipcode = true;
   
 
 
@@ -119,5 +127,12 @@ errorMessages += "<p>The zipcode is required</p>";
  
  
 // Make sure you return all the boolean variables that are checking each field
- return (validUsername && validPassword && validFirstname && validLastname && validAddress &&) ;
+ return (validUsername && 
+ validPassword && 
+ validFirstname && 
+ validLastname && 
+ validAddress && 
+ validCity &&
+ validEmail &&
+ validZipcode) ;
 }
