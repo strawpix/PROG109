@@ -17,6 +17,7 @@ var errorMessages ="";  // All the error messages are going to stay in this vari
 //Required field
 //This syntax is using name-of-form.name-of-field.value
 // You can also use document.getElementById("id-of-field").value
+// testing if it's uploading changes
 
 
 /*********** VALIDATES FIRSTNAME ******** */
