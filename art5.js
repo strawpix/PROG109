@@ -1,12 +1,15 @@
 function nextPhoto()
 {
  console.log(i);
- if (i <myPhotos.length)
- {document.getElementById("newImage").src = myPhotos[i];
- i++;}
+ if (i <myPhotos.length - 1)
+ {i++;
+ }
  else
- {i=0;
- document.getElementByID("newImage").src = myPhotos[i];}
+ {i=0;}
+
+document.getElementById("newImage").src = myPhotos[i];
+document.getElementById("myDescription").innerHTML = myDescription[i];
+
  
 }
 
@@ -14,12 +17,13 @@ function previousPhoto()
 {
  
  if (i > 0)
- {document.getElementById("newImage").src = myPhotos[i];
- i--;}
- else 
- {i = myPhotots.length - 1;
-document.getElementByID("newImage").src = myPhotos[i]
+ { i--;
 }
+ else 
+ {i = myPhotos.length - 1;
+}
+ document.getElementById("newImage").src = myPhotos[i];
+ document.getElementById("myDescription").innerHTML = myDescription[i];
  
 }
 
@@ -30,7 +34,9 @@ nextPic.addEventListener('click', nextPhoto, false);
 var previousPic = document.getElementById('previous'); 
 previousPic.addEventListener('click', previousPhoto, false);
  
-var  i=1; //Indicates the current position on the array
+var  i=0; //Indicates the current position on the array
+
+setInterval(function (){ nextPhoto(); }, 5000);
 
 myPhotos = [
 "chess/black-bishop.png",
@@ -39,6 +45,15 @@ myPhotos = [
 "chess/gold-bishop.png",
 "chess/black-knight.png",
 "chess/gold-pawn.png"];
+
+myDescription = [
+"Black Bishop",
+"Gold Queen",
+"Black King", 
+"Gold Bishop",
+"Black Knight",
+"Gold Pawn",];
+
 /* 
 "http://www.dwt.com/files/Uploads/Images/Offices/Seattle/seattle.jpg",
 "http://depts.washington.edu/biowww/images/seattle_kerry_park.png",
