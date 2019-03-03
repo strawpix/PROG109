@@ -26,7 +26,7 @@ var errorMessages ="";  // All the error messages are going to stay in this vari
  firstname.length > 20 ||
  !firstname.match(letters)
  )
- errorMessages += "<p>The first name is required and cannot be greater than 20 characters. Only letters and numbers are accepted.</p>";
+ errorMessages += "<p>The first name is required and cannot be greater than 20 characters. Only letters are accepted.</p>";
  else  
  validFirstname =true;
 
@@ -36,7 +36,7 @@ var errorMessages ="";  // All the error messages are going to stay in this vari
  lastname === "" ||
  lastname.length > 50 ||
  !lastname.match(letters))
- errorMessages += "<p>The last name is required and must be less than 50 characters. Only letters and numbers are accepted.</p>";
+ errorMessages += "<p>The last name is required and must be less than 50 characters. Only letters are accepted.</p>";
  else 
  validLastname =true;
 
@@ -77,7 +77,7 @@ errorMessages += "<p>The username is required and must be less than 12 character
  if (password==null ||
  password=== "" ||
  password.length > 7)
- errorMessages += "<p>The password is required and must be less than 7 characters and it is required.</p>";
+ errorMessages += "<p>The password is required and must be less than 7 characters.</p>";
  else
  validPassword = true; 
 
