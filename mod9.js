@@ -1,4 +1,3 @@
-
 var  mybutton = document.querySelector("button");
 
 //This section cleans the screen
