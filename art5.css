@@ -4,6 +4,11 @@ img {
   margin-right: auto;
   width: 40%;
 }
+.footer {
+	margin-left: 10px;
+	margin-right: auto;
+}
 
 .button {
-text-align: center}
+text-align: center
+}
